@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(179, 167, 4);
+    height: 60px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
