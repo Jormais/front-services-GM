@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormularioPeticionServiciosComponent } from './formulario-peticion-servicios/formulario-peticion-servicios.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormularioPeticionServiciosComponent
+    FormularioPeticionServiciosComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
